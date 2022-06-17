@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Stack, Typography, Button } from '@mui/material'
 import HeroBannerImage from '../assets/images/banner.png'
-import { padding } from '@mui/system'
+
 
 
 const HeroBanner = () => {
@@ -50,7 +50,7 @@ const HeroBanner = () => {
          color="error"
          href="#exercises"
          sx={{
-             backgroundColor: "#FF2625",
+          
              padding: '10px'
          }}
          >

@@ -50,7 +50,7 @@ const HeroBanner = () => {
          color="error"
          href="#exercises"
          sx={{
-          
+             backgroundColor: "#FF2625",
              padding: '10px'
          }}
          >

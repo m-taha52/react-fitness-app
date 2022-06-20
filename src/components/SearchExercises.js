@@ -38,6 +38,7 @@ const SearchExercises = ({bodyPart, setBodyPart, setExercises}) => {
 
   }
   return (
+    
       <Stack
       alignItems='center'
       p='20px'
@@ -111,7 +112,7 @@ const SearchExercises = ({bodyPart, setBodyPart, setExercises}) => {
           width:"100%",
           padding:"20px"
         }}>
-            <HorizontalScrollBar data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
+            <HorizontalScrollBar data={bodyParts} isBodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
         </Box>
 
       </Stack>

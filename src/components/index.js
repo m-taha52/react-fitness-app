@@ -6,6 +6,12 @@ export {default as Exercises} from "./Exercises"
 export {default as HorizontalScrollBar} from "./HorizontalScrollBar"
 export {default as BodyPart} from "./BodyPart"
 export {default as ExerciseCard} from "./ExerciseCard"
+export {default as Detail } from "./Detail"
+export {default as ExerciseVideos} from "./ExerciseVideos"
+export {default as SimilarExercises} from "./SimilarExercises"
+
+
+
 
 
 

@@ -57,11 +57,21 @@ const Detail = ({exerciseDetail}) => {
           }
         }}>
 
-          <Typography textTransform='capitalize' variant="h4">
+          <Typography textTransform='capitalize' variant="h4" sx={{
+            fontSize: {
+              lg: '40px',
+              xs: '25px'
+            }
+          }}>
             {name}
           </Typography>
           
-          <Typography variant='h6'>
+          <Typography variant='h6' sx={{
+            fontSize: {
+              lg: '25px',
+              xs: '16px'
+            }
+          }}>
             Exercises keep you strong. {' '}
             {name} {` `} is one of the best exercises to target your {target}. 
             It will help you improve your mood and energy
@@ -83,11 +93,21 @@ const Detail = ({exerciseDetail}) => {
                   <img src={item.icon} alt={bodyPart} style={{width: '50px', height: '50px'}} />
                 </Button>
 
-                <Typography variant="h6">
+                <Typography variant="h6" sx={{
+                  fontSize: {
+                    lg: '25px',
+                    xs: '15px'
+                  }
+                }}>
                   {item.title}:
                 </Typography>
 
-                <Typography textTransform='capitalize' variant="h5">
+                <Typography textTransform='capitalize' variant="h5" sx={{
+                  fontSize: {
+                    lg: '25px',
+                    xs: '15px'
+                  }
+                }}>
                   {(item.name)}
                 </Typography>
               </Stack>

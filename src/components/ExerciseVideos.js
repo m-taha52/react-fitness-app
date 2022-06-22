@@ -14,7 +14,12 @@ const ExerciseVideos = ({exerciseVideos, name}) => {
          
         } 
       }}>
-        <Typography variant='h4' mb='33px'>
+        <Typography variant='h4' mb='33px' sx={{
+                  fontSize: {
+                    lg: '50px',
+                    xs: '20px'
+                  }
+                }}>
           Watch <span style={{color: '#FF2625', textTransform:"capitalize"}}> {name} </span> exercise videos
         </Typography>
 
@@ -42,10 +47,26 @@ const ExerciseVideos = ({exerciseVideos, name}) => {
             rel='noreferrer'>
                 <img src={item.video.thumbnails[0].url} alt='item video title' />
                 <Box>
-                  <Typography variant='h5' style={{color: '#000'}} mb='2px'>
+                  <Typography variant='h5' style={{color: '#000'}} sx={{
+                  fontSize: {
+                    lg: '25px',
+                    xs: '15px'
+                  },
+                  marginBottom: {
+                    xs: '6px'
+                  }
+                }}>
                     {item.video.title}
                   </Typography>
-                  <Typography variant='h6' style={{color: '#000'}}>
+                  <Typography variant='h6' style={{color: '#000'}} sx={{
+                  fontSize: {
+                    lg: '25px',
+                    xs: '15px'
+                  },
+                  marginBottom: {
+                    xs: '2px'
+                  }
+                }}>
                     {item.video.channelName}
                   </Typography>
                 </Box>

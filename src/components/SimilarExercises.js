@@ -11,7 +11,12 @@ const SimilarExercises = ({targetMuscleExercises, equipmentExercises}) => {
       }
     }}>
 
-        <Typography variant='h4' m='20px'>
+        <Typography variant='h4' m='20px' sx={{
+                  fontSize: {
+                    lg: '40px',
+                    xs: '25px'
+                  },
+                }}>
           Exercises that target the same muscle group
         </Typography>
         <Stack direction='row' sx={{p: '2', position: 'relative'}}>
@@ -24,7 +29,12 @@ const SimilarExercises = ({targetMuscleExercises, equipmentExercises}) => {
             }
         </Stack>
 
-        <Typography variant='h4' m='20px'>
+        <Typography variant='h4' m='20px' sx={{
+                  fontSize: {
+                    lg: '40px',
+                    xs: '25px'
+                  },
+                }}>
           Exercises that use the same equipment
         </Typography>
         <Stack direction='row' sx={{p: '2', position: 'relative'}}>

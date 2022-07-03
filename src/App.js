@@ -7,7 +7,7 @@ import { ExerciseDetail, Home } from './pages'
 
 const App = () => {
   return (
-    <Box width="400px" sx={{ width:{xl:"148px"}}}  m='auto'>
+    <Box width="400px" sx={{ width:{xl:"1480px"}}}  m='auto'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
